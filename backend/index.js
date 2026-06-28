@@ -49,7 +49,7 @@ app.use(cors({
     },
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
     allowedHeaders: ['Content-Type', 'Authorization'],
-    credentials: true // Allow cookies/headers if needed
+    credentials: true 
 }));
 
 // Middleware to handle JSON object in req body
